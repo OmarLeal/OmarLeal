@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'Dancing Script'; 
+    src: url('Dancing_Script.ttf');
+			}
+header
+{
+	background-color: #5b7989;
+	border-radius: 10px;
+}
+header>h1
+{
+	color: white;
+	text-align: left;
+	text-shadow: 2px #02010a;
+}
+nav
+{
+	color: #02010a;;
+	text-align: right;
+	text-decoration: none;
+	display: inline;
+}
+body
+{
+	font-family: 'Dancing Script'; 
+	background-color: #02010a; 
+}
+
+#seccionPrimaria
+{
+	background-color: #82c3a6;
+}
+#central
+{
+	width: 50%;
+	height: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#paisajes
+{
+	float: left;
+	
+}
+#retratos
+{
+	float: right;
+}
+
+.primaria
+{
+	min-height: 300px;
+	flex-direction: : column;
+	order: 1;
+}
+
+.secundaria
+{
+	min-height: 300px;
+	flex-direction: : column;
+	order: 2;
+}
+#seccionSecundaria
+{
+	background-color: #d5c75f;
+	border-radius: 1px;
+}
+#paisajes
+{
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+}
+#paisajes:hover
+{
+
+  transform: rotate(10deg);
+  border-radius: 2px;
+  color: #82c3a6; 
+}
+#retratos
+{
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+}
+#retratos:hover
+{
+
+  transform: translate3d(5px, 20px, 0px);
+  border-radius: 2px;
+  color: #82c3a6; 
+}
+#contenido
+{
+	float: center;
+	width: 900px;
+}
+
+article
+{
+	font-family: 'Dancing Script'; 
+	display: inline;
+	margin-left: 20px;
+	color: white;
+}
+
+
+@media (max-width: 900px) and (max-height: 900px)
+{
+	#contenido
+	{
+		width: 100%;
+	}
+}
+
+@media (max-width: 200px) and (max-height: 200px)
+{
+	.primaria
+	{
+		{
+		min-height: 200px;		
+	}
+	}
+	.secundaria
+	{
+		min-height: 200px;	
+	}
+}
+#galeria1>img
+{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+#galeria2>img
+{
+	margin-left: 10px;
+}
+#img1
+{
+	-webkit-filter:blur(10px);
+	filter:blur(10px);
+}
+#img2
+{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+#img3
+{
+	-webkit-filter:sepia(90%);
+	filter:sepia(90%);
+}
+#img4
+{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+#img6
+{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+#retratos1>#img1
+{
+	-webkit-filter:blur(10px);
+	filter:blur(10px);
+}
+#img2
+{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+#img3
+{
+	-webkit-filter:sepia(90%);
+	filter:sepia(90%);
+}
+#img4
+{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+#img6
+{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+#contenido
+{
+	background-color: #C6d5c5;
+	border-radius: 10px;
+}
